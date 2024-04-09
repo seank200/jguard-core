@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:postgres://localhost:5432/jguard
+    username: jguard_member
+    password: 'Jguard1206!@'
